@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registrarse</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta enctype="multipart/form-data">
+
+
+	</head>
+	<body>
+
+		<header>
+			<a href="../index.html"><img src="../Images/arcade.png" width="10%"></a>
+			
+			<!-- esquina superior derecha -->
+			<div>
+				<a href="#">Registrarse</a>
+				<a href="log_in.html">Conectarse</a>
+				<a href="cart.html">Carro</a>
+			</div>
+
+			<!-- navegación simple al final del header-->
+			<nav>
+				<a href="coming_soon.html">Próximamente</a>
+				<a href="featured.html">Destacados</a>
+				<a href="game_list.html">Catálogo</a>
+			</nav>
+
+			<h1>E-Games</h1>			
+
+			
+		</header>
+
+		<main>
+			<h2>Registrarse</h2>
+			<p>Por favor, complete el formulario para poder registrarse en el sitio. </p>
+			
+			<form>
+				<label>Name</label>
+				<input type="text" name="first_name" required="" maxlength="30" placeholder="Juan" autofocus="" autocomplete=""> <br>
+
+				<label>Apellido</label>
+				<input type="text" name="last_name" required="" maxlength="30" placeholder="Perez" autocomplete=""><br>
+
+				<label>Nombre de Usuario</label>
+				<input type="text" name="Username" required="" minlength="4" maxlength="24" placeholder="Juanpe02" pattern="[A-Za-z0-9]{4,24}"> <br>
+
+				<label>Edad</label>
+				<input type="number" name="age" placeholder="25"><br>
+
+				<label>País</label>
+				<input type="text" name="country" placeholder="Ecuador"><br>
+
+				<label>E-mail</label>
+				<input type="email" name="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="" placeholder="Juan.Perez@gmail.com" ><br>
+
+				<label>Ingrese una contraseña</label>
+				<input type="password" name="password" required="" pattern="[A-Za-z0-9]{8,24}" minlength="8" maxlength="24" placeholder="*************" data-toggle="tooltip" title="Ingrese 8 a 24 caracteres alfa numéricos"><br>
+
+				<label>Confirme su contraseña</label>
+				<input type="password" name="conf_password" required="" pattern="[A-Za-z0-9]{8,24}" minlength="8" maxlength="24" placeholder="*************" data-toggle="tooltip" title="Las contraseñas deben coincidir"><br>
+
+				 <input type="reset" name="reset" value="Borrar todo"> <input type="submit" name="Sign_u">
+			</form>
+		</main>
+
+		<footer>
+			<div id="somed">
+				<a href="">Fb</a>
+				<a href="">Instagram</a>
+				<a href="">Twitter</a>
+				<a href="">Twich</a>
+				
+			</div>
+			<div id="altnav">
+				<a href="">Sobre nosotros</a>
+				<a href="">Políticas y Condiciones de uso</a>
+				<a href="contact_us.html">Contáctanos</a>
+			</div>
+			<div>
+				Powered by 	<a href="">Moonstruck Studios</a>
+			</div>
+		</footer>
+
+	</body>
+</html>

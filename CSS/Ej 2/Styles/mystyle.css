@@ -1,0 +1,99 @@
+/*Main*/
+body	{background-image: url(../Images/bg1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+main {margin-left: 250px;
+margin-right: 250px;}
+
+/*Banner*/
+
+.banner img {width: 100%;
+object-position: center;}
+
+/*Content*/
+
+
+.content{display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row-reverse;
+    box-sizing: border-box;
+    	
+}
+
+.row {
+   }
+
+}
+
+.column {
+    
+   
+}
+
+.img { width: 25%;
+   
+    
+}
+
+.img img { width: 150px; }
+
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        	
+    }
+}
+
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+       
+    }
+}
+
+
+/*div.content {  
+  	
+  display: inline-flex	;
+width: 	60%;}
+*/
+
+  
+
+  	/*article	img { display: 	inline-flex;	 
+  	margin: auto;	
+  	width: 0% ;}
+*/
+
+
+
+
+
+
+/*
+
+
+
+
+.content:hover p {
+    display: inline;
+}
+
+.content:hover img { width: 50%; }
+
+.wrath:hover p { display: inline }*/
+
+/*Sidenav*/
+
+/*.leftnav	{ float: left;
+background-color: rgb(255, 255, 255, 0.8)
+ }
+
+.leftnav a {display: block;}*/

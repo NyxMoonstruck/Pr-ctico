@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejercicio 2</title>
+		<link rel="stylesheet" type="text/css" href="Styles/my_style.css">
+		<script type="text/javascript" src="Script/my_script.js"></script>
+	</head>
+
+	<body>
+			<header> 
+				<h1>Ejercicio 2</h1>
+			</header>
+			
+			<main>
+				<div class="formulario">
+					<form action="submit" method="post" onsubmit="return FormValidation();" onchange="return FormValidation();" >
+
+						<div class="input">
+							<label>Nombre</label>	
+							<input type="text" name="nombre" id="name" required="" maxlength="30" placeholder="Amanda" autofocus="" autocomplete="" pattern="[A-Za-z], {3,30}">
+						</div>
+						
+						<div class="input">
+							<label>Edad</label>
+							<input type="number" name="Edad" id="age" pattern="[0-9],{2}" required="" maxlength="2" placeholder="22" autocomplete="">
+						</div>
+						<div class="input">				
+							<input type="submit" name="Aceptar" value="Aceptar" id="send" >
+						</div>
+					</form>
+				</div>
+			</main>
+			<footer>	
+			</footer>
+	</body>
+</html>

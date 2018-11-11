@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Portada</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta enctype="multipart/form-data">
+
+	</head>
+
+	<body>
+
+		<header>
+			
+			<a href="#"><img src="Images/arcade.png" width="10%"></a>
+			
+			<!-- esquina superior derecha -->
+			<div>
+				<a href="Pages/sign_up.html">Regitrarse</a>
+				<a href="Pages/log_in.html">Conectarse</a>
+				<a href="Pages/cart.html">Carro</a>
+			</div>
+
+			<!-- navegación simple al final del header-->
+			<nav>
+				<a href="Pages/coming_soon.html">Próximamente</a>
+				<a href="Pages/featured.html">Destacados</a>
+				<a href="Pages/game_list.html">Catálogo</a>
+			</nav>
+			
+			<h1>E-Games</h1>			
+
+
+			
+		</header>
+
+		<main>
+			<!-- Galería coming soon/featured -->
+			<!-- The grid: four columns -->
+			<div class="row">
+  				<div class="column">
+   				 	<img src="https://via.placeholder.com/650x480" alt="Imagen1" onclick="openImg(this);">
+  				</div>
+  				<div class="column">
+            		<img src="https://via.placeholder.com/650x480" alt="Imagen2" onclick="openImg(this);">
+           		</div>
+ 			 	<div class="column">
+    				<img src="https://via.placeholder.com/650x480" alt="Imagen3" onclick="openImg(this);">
+  				</div>
+  				<div class="column">
+    				<img src="https://via.placeholder.com/650x480" alt="Imagen4" onclick="openImg(this);">
+  				</div>
+			</div>
+
+			<!-- The expanding image container -->
+			<div class="container">
+ 			 <!-- Close the image -->
+  			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  			<!-- Expanded image -->
+  			<img id="expandedImg" style="width:100%">
+
+  			<!-- Image text -->
+  			<div id="imgtext"></div>
+			<div></div>
+
+			<div>
+			</div>
+			<aside>
+				<nav>
+					<a href="Pages/sign_up.html">Regitrarse</a>
+					<a href="Pages/log_in.html">Conectarse</a>
+					<a href="Pages/cart.html">Carro</a>
+					<a href="Pages/coming_soon.html">Próximamente</a>
+					<a href="Pages/featured.html">Destacados</a>
+					<a href="Pages/game_list.html">Catálogo</a>
+				</nav>
+
+
+				<a href="#">
+				<i class="fas fa-bars"></i>
+				</a>
+
+			</aside>
+
+			<aside>
+				<nav id="somed">
+				<a href="">Fb</a>
+				<a href="">Instagram</a>
+				<a href="">Twitter</a>
+				<a href="">Twich</a>
+				
+				</nav>
+			</aside>
+
+			<section id="galeria populares">
+				<div class="gallery">
+  					<a target="_blank" href="juegox.html">
+    					<img src=https://via.placeholder.com/300x200" alt="juegox" width="300" height="200">
+  					</a>
+  					<div class="desc">
+  						<p>Lorem ipsum dolor sit amet
+  						</p>
+  						<button type="submit">Comprar</button>
+					</div>
+				</div>
+
+				<div class="gallery">
+  					<a target="_blank" href="juegoz.html">
+    					<img src=https://via.placeholder.com/300x200" alt="juegoz" width="300" height="200">
+  					</a>
+  					<div class="desc">
+  						<p>Lorem ipsum dolor sit amet
+  						</p>
+  						<button type="submit">Comprar</button>
+					</div>
+				</div>
+
+				<div class="gallery">
+  					<a target="_blank" href="juegoc.html">
+    					<img src=https://via.placeholder.com/300x200" alt="juegoc" width="300" height="200">
+  					</a>
+  					<div class="desc">
+  						<p>Lorem ipsum dolor sit amet
+  						</p>
+  						<button type="submit">Comprar</button>
+					</div>
+				</div>
+
+
+				<div class="gallery">
+  					<a target="_blank" href="juegov.html">
+    					<img src=https://via.placeholder.com/300x200" alt="juegov" width="300" height="200">
+  					</a>
+  					<div class="desc">
+  						<p>Lorem ipsum dolor sit amet
+  						</p>
+  						<button type="submit">Comprar</button>
+					</div>
+				</div>
+
+				
+
+				
+			</section>
+
+		</main>
+
+		<footer>
+			<div id="somed">
+				<a href="">Fb</a>
+				<a href="">Instagram</a>
+				<a href="">Twitter</a>
+				<a href="">Twich</a>
+				
+			</div>
+			<div id="altnav">
+				<a href="">Sobre nosotros</a>
+				<a href="">Políticas y Condiciones de uso</a>
+				<a href="Pages/contact_us.html">Contáctanos</a>
+			</div>
+			<div>
+				Powered by 	<a href="">Moonstruck Studios</a>
+			</div>
+		</footer>
+
+	</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Juego 1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		<header>
+			<a href="../index.html"><img src="../Images/arcade.png" width="10%"></a>
+			
+			<!-- esquina superior derecha -->
+			<div>
+				<a href="sign_up.html">Registrarse</a>
+				<a href="log_in.html">Conectarse</a>
+				<a href="cart.html">Carro</a>
+			</div>
+
+			<!-- navegación simple al final del header-->
+			<nav>
+				<a href="coming_soon.html">Próximamente</a>
+				<a href="featured.html">Destacados</a>
+				<a href="game_list.html">Catálogo</a>
+			</nav>
+
+			<h1>E-Games</h1>			
+		</header>
+
+		<main>
+			<h2>Juego 1</h2>
+
+			<video> Video del Juego en cuestión</video>
+
+			<!-- The grid: four columns -->
+			<div class="row">
+  				<div class="column">
+   				 	<img src="https://via.placeholder.com/650x480" alt="Imagen1" onclick="openImg(this);">
+  				</div>
+  				<div class="column">
+            		<img src="https://via.placeholder.com/650x480" alt="Imagen2" onclick="openImg(this);">
+           		</div>
+ 			 	<div class="column">
+    				<img src="https://via.placeholder.com/650x480" alt="Imagen3" onclick="openImg(this);">
+  				</div>
+  				<div class="column">
+    				<img src="https://via.placeholder.com/650x480" alt="Imagen4" onclick="openImg(this);">
+  				</div>
+			</div>
+
+			<!-- The expanding image container -->
+			<div class="container">
+ 			 <!-- Close the image -->
+  			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  			<!-- Expanded image -->
+  			<img id="expandedImg" style="width:100%">
+
+  			<!-- Image text -->
+  			<div id="imgtext"></div>
+			</div>
+
+			<div>  
+
+				<article>
+					<p><h4>Detalles</h4>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+
+					<p>
+						<h4>Requisitos</h4>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+
+					<p>$ xx.xx</p>
+
+					<section>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</section>
+				</article>
+				<button type="submit">Comprar</button>
+			</div>
+		</main>
+
+		<footer>
+			<div id="somed">
+				<a href="">Fb</a>
+				<a href="">Instagram</a>
+				<a href="">Twitter</a>
+				<a href="">Twich</a>
+				
+			</div>
+			<div id="altnav">
+				<a href="">Sobre nosotros</a>
+				<a href="">Políticas y Condiciones de uso</a>
+				<a href="contact_us.html">Contáctanos</a>
+			</div>
+			<div>
+				Powered by 	<a href="">Moonstruck Studios</a>
+			</div>
+		</footer>
+
+
+	</body>
+</html>

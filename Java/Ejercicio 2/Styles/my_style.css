@@ -1,0 +1,45 @@
+
+body{ background-image:
+    linear-gradient(
+      #660033
+, #000000);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header	{text-align: center;}
+
+.formulario { margin: 	auto;
+			}
+
+form { border: solid rgba(255, 255, 255, 0.06) 3px;
+	border-radius: 30px;
+margin: auto;
+padding: 5%;
+width: 30%;
+background-color: rgba(255, 255, 255, 0.06)
+;
+color:white;
+font-weight: bold;
+
+ }
+
+.input{ margin: 3%
+	; text-align: center;
+	}
+
+#send { border-radius: 4px;
+	border-color: rgba(255, 255, 255, 0.16);
+		background-color: rgba(255, 255, 255, 0.16)
+; 
+ border-style: inset;
+color:white;
+font-weight: bold;
+padding: 1%;}
+
+#send:hover { border-style: outset;
+border-color: rgba(255, 255, 255, 0.26);
+		background-color: rgba(255, 255, 255, 0.26)
+;  }

@@ -1,0 +1,44 @@
+
+
+.div1{
+	width: 100%;
+	border: solid red 3px;
+	background-color: slategray;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;}
+
+
+.div4 {	
+	width: 33%;
+ 	float: right;
+	border: solid blue 3px;
+	border-right: none;
+	background-color: teal;
+	position: absolute;
+	z-index: 5;
+}
+
+.div2 { 
+	width: 33%;
+	background-color: pink;
+	float: left;
+	border: dotted magenta 2px;
+	position: relative;
+	 }
+
+.div3 {
+	width: 33%;
+	background-color: cyan;
+	float: right;
+	border-top: solid blue 2px;
+	border-bottom: solid blue 2px;
+	border-right: solid blue 2px;
+	position: relative; 
+	
+}
+
+#container	{max-width: 900px
+			 margin-right: auto;
+			 margin-left: auto; }
+
