@@ -1,6 +1,6 @@
 /*-----ESTILO PARA LA PAGINA SOBRE MI
 	-----
-	AUTOR: Florencia Gonález*/
+	AUTOR: Florencia González*/
 
 /*REFERENCIAS*/
 /*Paleta de colores
@@ -48,6 +48,8 @@ main { margin-top: 30%;
 	margin: 20%;
 }
 
+.Profile {  }
+
 .Bio {background-color: rgb(0,0,0, 0.89);
 	width: 45%;
 	;
@@ -59,12 +61,11 @@ margin-top: 10%;
 }
 
 .profilepic {background-color: rgb(0,0,0, 0.6);
-	width: 45%;
+	width: 40%;
 float: left;
 clear: all;
 color: #9664A6;
-justify-content: center;
-padding: 2%;
+padding: 5%;
 margin-top: 10%;}
 
 #propic { width: 80%;
@@ -72,28 +73,27 @@ margin:auto; }
 
 h2	{margin-left: 2%;}
 
-.slider { margin: auto;
-  width: 500px;
-  height: 500px;
+.slider { width: 300px;
+  text-align: center;
+  overflow: hidden;}
+
+.slide {
   display: flex;
   overflow-x: auto;
-}
-.slide {
-  width: auto;
-  flex-shrink: 0;
-  height: 50%;
-  margin:0px;
-
-
-}
+  
+  border-radius: 5px;
+  
+  scroll-behavior: smooth;}
 
 .slide img {margin: 0%;}
+
 
 /*FOOTER*/
 
 footer { background-color: rgb(0,0,0,0.89);
-	position: fixed;
+	position: absolute;	
 bottom: 0;
 text-align: center; 
-width: 100%;}
+width: 100%;
+padding-right:2%;}
 
